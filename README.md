@@ -14,5 +14,8 @@ A microservices-based application for managing students and degrees, built with 
   - Coordinated with Docker Compose
 
 ---
+## Attached files:
 
-
+- Springboot applications are compressed to .zip files and added to folder "Springboot" (dockerfiles are inside)  
+- Angular application was too big to attach it here, so i only included src file, dockerfile and nginx.conf
+- Docker-compoer
