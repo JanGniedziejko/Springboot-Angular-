@@ -11,7 +11,7 @@ A microservices-based application for managing students and degrees, built with 
 - **Docker**:
   - Dockerized backend services using `eclipse-temurin` images for Java.
   - Dockerized Angular frontend using Node.js image run on nginx.
-  - Coordinated with Docker Compose for seamless deployment.
+  - Coordinated with Docker Compose
 
 ---
 
