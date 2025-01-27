@@ -15,4 +15,4 @@ A microservices-based application for managing students and degrees, built with 
 
 ---
 
-## **Project Structure**
+
