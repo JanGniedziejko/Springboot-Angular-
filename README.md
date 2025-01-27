@@ -8,9 +8,9 @@ A microservices-based application for managing students and degrees, built with 
   - **Student Service**: Handles student data (CRUD operations).
   - **Degree Service**: Manages degree and category data with a one-to-many relationship.
 - **Frontend**: Angular-based user interface.
-- **Containerization**:
+- **Docker**:
   - Dockerized backend services using `eclipse-temurin` images for Java.
-  - Dockerized Angular frontend using Node.js image.
+  - Dockerized Angular frontend using Node.js image run on nginx.
   - Coordinated with Docker Compose for seamless deployment.
 
 ---
