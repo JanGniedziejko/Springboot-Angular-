@@ -13,19 +13,19 @@ RUN npm ci
 #install 
 RUN npm install -g @angular/cli
 
-#copy all files to virtual directory
+#copy all fiels to virtual directory
 COPY . .
 
-#run application
+# run application
 RUN npm run build --configuration=production
 
 
-#USING ENGINE NGINX
+# nignx
 FROM nginx:latest AS ngi
 #copy engine configuration
 COPY ./nginx.conf /etc/nginx/conf.d/default.conf
-# 
+# and the source to the nginx
 COPY --from=build /app/dist/labs5-angular/browser /usr/share/nginx/html
-# the app will be using :80 while running
+
 EXPOSE 80
 
